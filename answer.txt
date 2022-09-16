@@ -1,0 +1,18 @@
+Answer 1.
+a) A ".gitignore" file is a list of files/folders/patterns that must be ignored from tracking when committing.
+b) 
+    - It contains .class files and packages like .jar belonging to java
+    - IDE files like .ctxt files which are specific to the system paths
+    - Any *.log files for log files
+    - Also, it may include temporary files like .tmp, .bak, .mtj
+
+Answer 2.
+In fast-forward, new revision is done without performing merges so that pull will update directly. In other words, it pulls only new commits.
+For example, if a "test" branch is cut from the "master" branch and changes are made in this, it can directly be merged back into the master provided no other changes were made in the master branch.
+
+Answer 3.
+Different branches allow multiple developers to work on the same code base without raising any conflicts. 
+Each developer can cut their individual branch from master, work in their respective branches, and then move their changes back to master once verified.
+
+Answer 4.
+Usually, We can have any number of remote repositories with different names.
